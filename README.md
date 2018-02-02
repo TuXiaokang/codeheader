@@ -14,12 +14,12 @@ For example:
 /*--------------------------------------------------------------------------------
  * Copyright (c) 2018 TuXiaokang
  *
- * @Script: rename.js
+ * @Script: README.md
  * @Author: TuXiaokang
  * @Email: 931085856@qq.com
  * @Create At: 2018-02-02 14:11:18
  * @Last Modified By: TuXiaokang
- * @Last Modified At: 2018-02-02 14:13:20
+ * @Last Modified At: 2018-02-02 15:21:41
  * @Description: This is description.
  *--------------------------------------------------------------------------------*/
 
@@ -43,7 +43,7 @@ For example:
 others language: *lua*, *ruby*, *latex*, *lisp* ...
 
 ### Quick Insert Header Comment.
-![feature 1](images/feature-1.gif)
+![feature 1](https://github.com/TuXiaokang/codeheader/raw/master/images/feature-1.gif)
 
 
 

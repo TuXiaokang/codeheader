@@ -73,7 +73,7 @@ function activate(context) {
                 createAt: time,
                 modifiedAt: time,
                 year: new Date().getFullYear(),
-                copyright: true,
+                copyright: config.copyright,
                 copyrightOwner: config.copyrightOwner,
                 scriptLabel: config.scriptLabel,
                 authorLabel: config.authorLabel,
