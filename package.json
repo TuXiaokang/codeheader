@@ -2,7 +2,7 @@
   "name": "codeheader",
   "displayName": "CodeHeader",
   "description": "An extension for quickly insert header comment.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "xiaokangtu",
   "engines": {
     "vscode": "^1.19.0"
@@ -12,7 +12,7 @@
     "url": "https://github.com/TuXiaokang/codeheader.git"
   },
   "bugs": {
-        "url": "https://github.com/zhaopengme/codeheader/issues",
+        "url": "https://github.com/TuXiaokang/codeheader/issues",
         "email": "xiaokang.tu@qq.com"
     },
   "icon": "images/icon.png",

@@ -61,7 +61,7 @@ Users appreciate release notes as you update your extension.
 - Auto update header comment.
 - Add copyright comment options.
 
-### 0.0.2
+### 0.0.3
 
 - enable copyright default.
 - remove unused image files.
