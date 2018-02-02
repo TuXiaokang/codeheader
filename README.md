@@ -10,22 +10,22 @@ For example:
 
 *javascript*
 
-![feature 3](https://github.com/TuXiaokang/codeheader/raw/master/images/feature-3.png)
+![feature 3](https://github.com/TuXiaokang/codeheader/raw/master/features/feature-3.png)
 
 *python*
-![feature 3](https://github.com/TuXiaokang/codeheader/raw/master/images/feature-4.png)
+![feature 3](https://github.com/TuXiaokang/codeheader/raw/master/features/feature-4.png)
 
 
 others language: *lua*, *ruby*, *latex*, *lisp* ...
 
 ### Quick Insert Header Comment.
-![feature 1](https://github.com/TuXiaokang/codeheader/raw/master/images/feature-1.gif)
+![feature 1](https://github.com/TuXiaokang/codeheader/raw/master/features/feature-1.gif)
 
 
 
 ### Auto Update Header Comment.
 
-<!-- ![feature 2](images/feature-2.gif) -->
+<!-- ![feature 2](features/feature-2.gif) -->
 
 > Tip: ctrl+alt+i You can insert comments in the head, ctrl+s After you save the file, and automatically update the time and author.
 
@@ -60,3 +60,8 @@ Users appreciate release notes as you update your extension.
 - Insert header comment.
 - Auto update header comment.
 - Add copyright comment options.
+
+### 0.0.2
+
+- enable copyright default.
+- remove unused image files.

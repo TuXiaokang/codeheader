@@ -12,3 +12,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Insert header comment.
 - Auto update header comment.
 - Add copyright comment options.
+
+## [0.0.2] - 2018-02-02
+- enable copyright default.
+- remove unused image files.
