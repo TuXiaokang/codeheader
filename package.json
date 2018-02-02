@@ -7,6 +7,15 @@
   "engines": {
     "vscode": "^1.19.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TuXiaokang/codeheader.git"
+  },
+  "bugs": {
+        "url": "https://github.com/zhaopengme/codeheader/issues",
+        "email": "xiaokang.tu@qq.com"
+    },
+  "icon": "images/icon.png",
   "categories": [
     "Snippets", "Other"
   ],
@@ -39,7 +48,7 @@
           "codeheader.autoInsert": {
             "type": "boolean",
             "default": false,
-            "description": "it will auto insert code header when open file"
+            "description": "it will auto insert code header when create a new file, current version not support"
           },
           "codeheader.copyright": {
             "type": "boolean",
@@ -54,32 +63,32 @@
           "codeheader.authorLabel": {
             "type": "string",
             "default": "Author",
-            "description": ""
+            "description": "author label for display"
           },
           "codeheader.emailLabel": {
             "type": "string",
             "default": "Email",
-            "description": ""
+            "description": "email label for display"
           },
           "codeheader.createAtLabel": {
             "type": "string",
             "default": "Create At",
-            "description": ""
+            "description": "create time label for display"
           },
           "codeheader.ModifiedAtLabel": {
             "type": "string",
             "default": "Last Modified At",
-            "description": ""
+            "description": "last modified time label for display"
           },
           "codeheader.ModifiedByLabel": {
             "type": "string",
             "default": "Last Modified By",
-            "description": ""
+            "description": "last modified by label for display"
           },
           "codeheader.descriptionLabel": {
             "type": "string",
             "default": "Description",
-            "description": ""
+            "description": "description label for display"
           }
         }
       }
