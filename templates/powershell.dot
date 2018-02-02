@@ -1,6 +1,6 @@
 <#
 {{? it.copyright}} @ Copyright (c) {{=it.year}} {{=it.copyrightOwner}}
- @{{?}}
+ @{{??}}NOCOPYRIGHT{{?}}
  @{{=it.scriptLabel}}: {{=it.scriptName}}
  @{{=it.authorLabel}}: {{=it.author}}
  @{{=it.emailLabel}}: {{=it.email}}

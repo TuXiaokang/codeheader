@@ -31,9 +31,7 @@ Date.prototype.format = function (fmt) {
     };
     fmt = fmt.replace(/(M+|d+|h+|m+|s+)/g, v => {
         return ((v.length > 1 ? "0" : "") + eval('t.' + v.slice(-1))).slice(-2)
-    });
-
-    fmt = fmt.replace(/(y+)/g, v => {
+    }).replace(/(y+)/g, v => {
         return this.getFullYear().toString().slice(-v.length)
     });
     return fmt
@@ -84,8 +82,9 @@ function activate(context) {
                 descriptionLabel: config.descriptionLabel,
             }
             try {
-                let template = templates[languageId] || templates['javascript']
-                edit.insert(new vscode.Position(line, 0), template(data));
+                let template = templates[languageId] || templates['javascript'];
+                let print = template(data).replace('NOCOPYRIGHT\n', '');
+                edit.insert(new vscode.Position(line, 0), print);
             } catch (error) {
                 console.error(error);
             }

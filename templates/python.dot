@@ -1,5 +1,5 @@
 {{? it.copyright}}# Copyright (c) {{=it.year}} {{=it.copyrightOwner}}
-#{{?}}
+#{{??}}NOCOPYRIGHT{{?}}
 # -*- coding:utf-8 -*-
 # @{{=it.scriptLabel}}: {{=it.scriptName}}
 # @{{=it.authorLabel}}: {{=it.author}}
