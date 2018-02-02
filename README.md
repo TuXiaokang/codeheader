@@ -50,9 +50,9 @@ This extension contributes the following settings:
 
 You can DIY the header comment by setting:
 
-![](https://github.com/TuXiaokang/codeheader/raw/master/features/feature-5-1.gif)
+![](https://github.com/TuXiaokang/codeheader/raw/master/features/feature-5-1.png)
 
-![](https://github.com/TuXiaokang/codeheader/raw/master/features/feature-5-2.gif)
+![](https://github.com/TuXiaokang/codeheader/raw/master/features/feature-5-2.png)
 
 ## Known Issues
 
