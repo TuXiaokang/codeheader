@@ -1,9 +1,9 @@
 {
   "name": "codeheader",
   "displayName": "CodeHeader",
-  "description": "An extension which can quickly insert header comment.",
+  "description": "An extension for quickly insert header comment.",
   "version": "0.0.1",
-  "publisher": "XiaokangTu",
+  "publisher": "xiaokangtu",
   "engines": {
     "vscode": "^1.19.0"
   },
