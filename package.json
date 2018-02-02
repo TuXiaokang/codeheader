@@ -1,0 +1,117 @@
+{
+  "name": "codeheader",
+  "displayName": "CodeHeader",
+  "description": "An extension which can quickly insert header comment.",
+  "version": "0.0.1",
+  "publisher": "XiaokangTu",
+  "engines": {
+    "vscode": "^1.19.0"
+  },
+  "categories": [
+    "Snippets", "Other"
+  ],
+  "activationEvents": [
+    "onCommand:codeheader.insertHeader",
+    "onLanguage:javascript",
+    "onLanguage:python"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "configuration":[
+      {
+        "title": "",
+        "properties": {
+          "codeheader.author": {
+            "type": "string",
+            "default": "",
+            "description": "author name"
+          },
+          "codeheader.email": {
+            "type": "string",
+            "default": "",
+            "description": "email address"
+          },
+          "codeheader.timeFormat": {
+            "type": "string",
+            "default": "yyyy-MM-dd hh:mm:ss",
+            "description": "time format to parse"
+          },
+          "codeheader.autoInsert": {
+            "type": "boolean",
+            "default": false,
+            "description": "it will auto insert code header when open file"
+          },
+          "codeheader.copyright": {
+            "type": "boolean",
+            "default": false,
+            "description": "whether add copyright to header"
+          },
+          "codeheader.copyrightOwner": {
+            "type": "string",
+            "default": "",
+            "description": "copyright owner"
+          },
+          "codeheader.authorLabel": {
+            "type": "string",
+            "default": "Author",
+            "description": ""
+          },
+          "codeheader.emailLabel": {
+            "type": "string",
+            "default": "Email",
+            "description": ""
+          },
+          "codeheader.createAtLabel": {
+            "type": "string",
+            "default": "Create At",
+            "description": ""
+          },
+          "codeheader.ModifiedAtLabel": {
+            "type": "string",
+            "default": "Last Modified At",
+            "description": ""
+          },
+          "codeheader.ModifiedByLabel": {
+            "type": "string",
+            "default": "Last Modified By",
+            "description": ""
+          },
+          "codeheader.descriptionLabel": {
+            "type": "string",
+            "default": "Description",
+            "description": ""
+          }
+        }
+      }
+    ],
+    "commands": [
+      {
+        "command": "codeheader.insertHeader",
+        "title": "codeheader: Insert Code Header",
+        "shortcut": ""
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "codeheader.insertHeader",
+        "key": "alt+shift+i",
+        "mac": "alt+shift+i"
+      }
+    ]
+  },
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "vscode": "^1.1.6",
+    "eslint": "^4.6.1",
+    "@types/node": "^7.0.43",
+    "@types/mocha": "^2.2.42"
+  },
+  "dependencies": {
+    "dot": "^1.1.2",
+    "ini": "^1.3.5"
+  }
+}

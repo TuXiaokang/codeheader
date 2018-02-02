@@ -1,0 +1,10 @@
+{{? it.copyright}}# Copyright (c) {{=it.year}} {{=it.copyrightOwner}}
+#{{?}}
+# -*- coding:utf-8 -*-
+# @{{=it.scriptLabel}}: {{=it.scriptName}}
+# @{{=it.authorLabel}}: {{=it.author}}
+# @{{=it.createAtLabel}}: {{=it.createAt}}
+# @{{=it.modifiedByLabel}}: {{=it.modifiedBy}}
+# @{{=it.modifiedAtLabel}}: {{=it.modifiedAt}}
+# @{{=it.descriptionLabel}}: {{=it.description}}
+
