@@ -10,35 +10,11 @@ For example:
 
 *javascript*
 
-```js
-/*--------------------------------------------------------------------------------
- * Copyright (c) 2018 TuXiaokang
- *
- * @Script: README.md
- * @Author: TuXiaokang
- * @Email: 931085856@qq.com
- * @Create At: 2018-02-02 14:11:18
- * @Last Modified By: TuXiaokang
- * @Last Modified At: 2018-02-02 15:21:41
- * @Description: This is description.
- *--------------------------------------------------------------------------------*/
-
-```
+![feature 3](https://github.com/TuXiaokang/codeheader/raw/master/images/feature-3.png)
 
 *python*
+![feature 3](https://github.com/TuXiaokang/codeheader/raw/master/images/feature-4.png)
 
-```python
-# Copyright (c) 2018 TuXiaokang
-#
-# -*- coding:utf-8 -*-
-# @Script: py.py
-# @Author: TuXiaokang
-# @Create At: 2018-02-02 15:00:52
-# @Last Modified By: TuXiaokang
-# @Last Modified At: 2018-02-02 15:00:52
-# @Description: This is description.
-
-```
 
 others language: *lua*, *ruby*, *latex*, *lisp* ...
 
