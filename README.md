@@ -30,6 +30,8 @@ others languages: *lua*, *ruby*, *latex*, *lisp* ...
 
 > Tip: ctrl+alt+i You can insert comments in the head, ctrl+s After you save the file, and automatically update the time and author.
 
+
+
 ## Installation
 
 Press `F1`, and type `ext install codeheader`
@@ -46,6 +48,11 @@ This extension contributes the following settings:
 * `codeheader.copyrightOwner`: Your copyright owner, it will be set to `codeheader.author` if not provided.
 * ...
 
+You can DIY the header comment by setting:
+
+![](https://github.com/TuXiaokang/codeheader/raw/master/features/feature-5-1.gif)
+
+![](https://github.com/TuXiaokang/codeheader/raw/master/features/feature-5-2.gif)
 
 ## Known Issues
 

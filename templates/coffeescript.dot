@@ -2,6 +2,7 @@
 #{{?}}
 # @{{=it.scriptLabel}}: {{=it.scriptName}}
 # @{{=it.authorLabel}}: {{=it.author}}
+# @{{=it.emailLabel}}: {{=it.email}}
 # @{{=it.createAtLabel}}: {{=it.createAt}}
 # @{{=it.modifiedByLabel}}: {{=it.modifiedBy}}
 # @{{=it.modifiedAtLabel}}: {{=it.modifiedAt}}

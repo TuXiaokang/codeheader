@@ -60,6 +60,11 @@
             "default": "",
             "description": "copyright owner"
           },
+          "codeheader.scriptLabel": {
+            "type": "string",
+            "default": "Script",
+            "description": "filename label for display"
+          },
           "codeheader.authorLabel": {
             "type": "string",
             "default": "Author",
@@ -75,12 +80,12 @@
             "default": "Create At",
             "description": "create time label for display"
           },
-          "codeheader.ModifiedAtLabel": {
+          "codeheader.modifiedAtLabel": {
             "type": "string",
             "default": "Last Modified At",
             "description": "last modified time label for display"
           },
-          "codeheader.ModifiedByLabel": {
+          "codeheader.modifiedByLabel": {
             "type": "string",
             "default": "Last Modified By",
             "description": "last modified by label for display"
