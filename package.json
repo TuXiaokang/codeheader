@@ -2,7 +2,7 @@
   "name": "codeheader",
   "displayName": "CodeHeader",
   "description": "An extension for quickly insert header comment.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "publisher": "xiaokangtu",
   "engines": {
     "vscode": "^1.19.0"
@@ -52,7 +52,7 @@
           },
           "codeheader.copyright": {
             "type": "boolean",
-            "default": false,
+            "default": true,
             "description": "whether add copyright to header"
           },
           "codeheader.copyrightOwner": {

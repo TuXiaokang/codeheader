@@ -173,7 +173,6 @@ exports.activate = activate;
 function refreshConfiguration () {
     const vsc = vscode.workspace.getConfiguration('codeheader')
     const git = getGitConfiguration()
-
     let config = {
         timeFormat: vsc.timeFormat || 'yyyy-MM-dd hh:mm:ss',
         author: vsc.author || git.user.name || 'Your Name',
@@ -181,8 +180,8 @@ function refreshConfiguration () {
         modifiedBy: vsc.author || git.user.name || 'Your Name',
         description: vsc.description || "This is description.",
         autoInsert: vsc.autoInsert || false,
-        copyright: vscode.copyright || false,
-        copyrightOwner: vscode.copyrightOwner || vsc.author || git.user.name || 'Your Name',
+        copyright: vsc.copyright || false,
+        copyrightOwner: vsc.copyrightOwner || vsc.author || git.user.name || 'Your Name',
         scriptLabel: vsc.scriptLabel || 'Script',
         authorLabel: vsc.authorLabel || 'Author',
         emailLabel: vsc.emailLabel || 'Email',

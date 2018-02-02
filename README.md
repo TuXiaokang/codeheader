@@ -13,10 +13,11 @@ For example:
 ![feature 3](https://github.com/TuXiaokang/codeheader/raw/master/features/feature-3.png)
 
 *python*
+
 ![feature 3](https://github.com/TuXiaokang/codeheader/raw/master/features/feature-4.png)
 
 
-others language: *lua*, *ruby*, *latex*, *lisp* ...
+others languages: *lua*, *ruby*, *latex*, *lisp* ...
 
 ### Quick Insert Header Comment.
 ![feature 1](https://github.com/TuXiaokang/codeheader/raw/master/features/feature-1.gif)
@@ -61,7 +62,7 @@ Users appreciate release notes as you update your extension.
 - Auto update header comment.
 - Add copyright comment options.
 
-### 0.1.0
+### 0.1.2
 
 - enable copyright default.
 - remove unused image files.
