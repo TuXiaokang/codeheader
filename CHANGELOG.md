@@ -17,3 +17,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Add
 - enable copyright default.
 - remove unused image files.
+
+## [0.1.3] - 2018-02-02
+### Add
+- fix error format when not use copyright

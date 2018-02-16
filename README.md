@@ -28,13 +28,7 @@ others languages: *lua*, *ruby*, *latex*, *lisp* ...
 
 <!-- ![feature 2](features/feature-2.gif) -->
 
-> Tip: ctrl+alt+i You can insert comments in the head, ctrl+s After you save the file, and automatically update the time and author.
-
-
-
-## Installation
-
-Press `F1`, and type `ext install codeheader`
+> Tip: `shift`+`alt`+`i` You can insert comments in the head, ctrl+s After you save the file, and automatically update the time and author.
 
 
 ## Configuration
@@ -54,9 +48,6 @@ You can DIY the header comment by setting:
 
 ![](https://github.com/TuXiaokang/codeheader/raw/master/features/feature-5-2.png)
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
 
 ## Release Notes
 
@@ -73,3 +64,12 @@ Users appreciate release notes as you update your extension.
 
 - enable copyright default.
 - remove unused image files.
+
+## 0.1.3
+
+- fix error format when not use copyright.
+
+## 0.1.5
+
+- fix readme.
+- fix windows support.

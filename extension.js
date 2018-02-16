@@ -177,7 +177,7 @@ function refreshConfiguration () {
         author: vsc.author || git.user.name || 'Your Name',
         email: vsc.email || git.user.email || 'someone@gmail.com',
         modifiedBy: vsc.author || git.user.name || 'Your Name',
-        description: vsc.description || "This is description.",
+        description: vsc.description || 'This is description.',
         autoInsert: vsc.autoInsert || false,
         copyright: vsc.copyright || false,
         copyrightOwner: vsc.copyrightOwner || vsc.author || git.user.name || 'Your Name',
@@ -194,12 +194,17 @@ function refreshConfiguration () {
 
 // this method is used for read and parse .gitconfig file
 function getGitConfiguration() {
-    let config = null;
-    let filePath = path.join(process.env.HOME, '.gitconfig');
+    let config = { user: { name: '', email: '' } };
+    let filePath = path.join(getUserHome(), '.gitconfig');
     if (fs.existsSync(filePath) === true) {
         config = ini.parse(fs.readFileSync(filePath, 'utf-8'));
     }
     return config;
+}
+
+
+function getUserHome () {
+    return process.env.HOME || process.env.USERPROFILE;
 }
 
 // this method is called when your extension is deactivated
