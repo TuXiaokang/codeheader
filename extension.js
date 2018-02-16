@@ -56,7 +56,7 @@ function activate(context) {
     let disposable = vscode.commands.registerCommand('codeheader.insertHeader', function () {
         // The code you place here will be executed every time your command is executed
         const editor = vscode.editor || vscode.window.activeTextEditor
-        const scriptName = editor.document.fileName.split('/').pop()
+        const scriptName = editor.document.fileName.split(path.sep).pop()
         const languageId = editor.document.languageId
         const line = editor.selection.active.line;
 
@@ -122,7 +122,7 @@ function activate(context) {
                     let lineText = document.lineAt(lineIndex).text;
                     if(lineText.includes(`@${config.scriptLabel}:`)) {
                         const index = lineText.indexOf(`@${config.scriptLabel}`)
-                        let scriptName = fileName.split('/').pop()
+                        let scriptName = fileName.split(path.sep).pop()
                         changeInfo.scriptRange = lineRange
                         changeInfo.scriptText = lineText.slice(0, index) + `@${config.scriptLabel}: ${scriptName}`
                         findCount = findCount + 1;
