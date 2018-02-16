@@ -12,12 +12,13 @@
     "url": "https://github.com/TuXiaokang/codeheader.git"
   },
   "bugs": {
-        "url": "https://github.com/TuXiaokang/codeheader/issues",
-        "email": "xiaokang.tu@qq.com"
-    },
+    "url": "https://github.com/TuXiaokang/codeheader/issues",
+    "email": "xiaokang.tu@qq.com"
+  },
   "icon": "images/icon.png",
   "categories": [
-    "Snippets", "Other"
+    "Snippets",
+    "Other"
   ],
   "activationEvents": [
     "onCommand:codeheader.insertHeader",
@@ -26,7 +27,7 @@
   ],
   "main": "./extension",
   "contributes": {
-    "configuration":[
+    "configuration": [
       {
         "title": "",
         "properties": {
