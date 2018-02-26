@@ -1,4 +1,4 @@
-/*----------------------------------------------------------------------------------------------------------
+/*
 {{? it.copyright}} * Copyright (c) {{=it.year}} {{=it.copyrightOwner}}
  *{{??}}NOCOPYRIGHT{{?}}
  * @{{=it.scriptLabel}}: {{=it.scriptName}}
@@ -8,6 +8,6 @@
  * @{{=it.modifiedByLabel}}: {{=it.modifiedBy}}
  * @{{=it.modifiedAtLabel}}: {{=it.modifiedAt}}
  * @{{=it.descriptionLabel}}: {{=it.description}}
- *----------------------------------------------------------------------------------------------------------*/
+ */
 
  
