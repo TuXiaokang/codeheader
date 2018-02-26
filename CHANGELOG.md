@@ -1,8 +1,6 @@
 # Change Log
 All notable changes to the "codeheader" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
 - Initial release
 
@@ -20,4 +18,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.3] - 2018-02-02
 ### Add
-- fix error format when not use copyright
+- fix error format when not use copyright.
+
+
+## [0.1.5] - 2018-02-15
+## Add
+- fix readme.
+- fix windows support. 
+
+## [0.1.7] - 2018-02-26
+## Add
+- update the format of `js` comment.

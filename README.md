@@ -72,4 +72,8 @@ Users appreciate release notes as you update your extension.
 ## 0.1.5
 
 - fix readme.
-- fix windows support.
+- fix windows support. 
+
+## 0.1.7
+
+- update the format of `js` comment.
